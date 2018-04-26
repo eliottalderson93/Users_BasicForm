@@ -42,7 +42,7 @@
             margin-bottom:3px;
             margin-left:20px;
         }
-        input{
+        .box{
             display:block;
             border:2px solid black;
             margin-left:20px;
@@ -53,3 +53,16 @@
         width:75px;
         height:40px;
     }
+    table{
+        margin:10px;
+    }
+        tr{
+            border:skyblue solid 2px;
+            padding:10px;
+        }
+            td{
+                border:gray solid 2px;
+                height:20px;
+                width:180px;
+                margin-top:3px;
+            }
