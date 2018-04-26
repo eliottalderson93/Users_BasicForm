@@ -2,17 +2,54 @@
 *{
     padding:0px;
     margin:0px;
-    border:red dashed 1px;
 }
 /*This is the start of the webpage*/
 .wrapper{
     min-height:1000px;
     min-width:1000px;
-    background-color:silver;
+    padding:30px;
+    background-color:white;
 }
     /*Define the classes below*/
-    .class{
-        height:500px;
+    .header{
+        height:35px;
         width:500px;
-        margin:auto;
+        border:solid black 3px;
+    }
+        .header ul{
+            list-style-type:none;
+            margin:0px;
+            padding:0px;
+        }
+            .header ul li{
+                display:inline;
+                margin:10px;
+                font-size:20px;
+            }
+    .user{
+        border-bottom:gray solid 5px;
+        margin-bottom:10px;
+        width:500px;
+        height:50px;
+    }
+    .form_input{
+        width:500px;
+        height:250px;
+    }
+        .form_input p{
+            margin-top:10px;
+            display:block;
+            margin-bottom:3px;
+            margin-left:20px;
+        }
+        input{
+            display:block;
+            border:2px solid black;
+            margin-left:20px;
+        }
+    button{
+        border-radius:4px;
+        background-color:skyblue;
+        width:75px;
+        height:40px;
     }
